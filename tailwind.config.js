@@ -1,0 +1,38 @@
+module.exports = {
+  theme: {
+    colors: {
+      fmDarkestBrown: '#29201A',
+      fmDarkBrown: '#39322C',
+      fmMediumBrown: '#655B54',
+      fmLightBrown: '#DED8D4',
+      fmDarkGold: '#91865A',
+      fmLightGold: '#a6a283',
+      fmBlue: '#0592B5',
+      fmLightPurple: '#A39AF5',
+      fmPurple: '#5F5A8F',
+      fmDarkPurple: '#35315C',
+      fmDarkPurpleTrans: 'rgba(53,49,92,0.5)',
+      e2: '#E2E2E2',
+      ab: '#abaab2',
+      '9e': '#9E9E9E',
+      '78': '#787878',
+      '52': '#525252',
+      f8: '#f8f8f8',
+      white: '#ffffff',
+      black: '#000000',
+    },
+    fontFamily: {
+      inter: ['Inter', 'Helvetica', 'sans-serif'],
+      merriweather: ['Merriweather', 'Georgia', 'serif'],
+    },
+    extend: {},
+  },
+  variants: {
+    padding: ['last', 'responsive'],
+    margin: ['last', 'responsive'],
+    borderWidth: ['last', 'responsive', 'focus', 'hover'],
+    borderColor: ['last', 'responsive', 'focus', 'hover'],
+    borderStyle: ['last', 'responsive', 'focus', 'hover'],
+  },
+  plugins: [],
+};
