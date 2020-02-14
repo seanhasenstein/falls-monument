@@ -1,0 +1,27 @@
+{
+  "name": "falls-monument",
+  "version": "1.0.0",
+  "description": "A Gatsby site for Falls Monument Company in Sheboygan Falls, Wi",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+  },
+  "author": "Sean Hasenstein <seanhasenstein@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "gatsby": "^2.19.17",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}
