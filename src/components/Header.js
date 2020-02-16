@@ -87,7 +87,12 @@ const Header = () => {
         } md:h-auto max-w-screen-lg w-full flex flex-col justify-start md:flex-row md:justify-between md:items-center px-5 md:px-3 mx-auto`}
       >
         <div className="flex flex-row justify-between items-center py-2 md:py-0 border-b-2 border-solid border-fmDarkBrown md:border-b-0">
-          <Logo />
+          <Link
+            to="/"
+            className="block w-56 border border-solid border-fmDarkestBrown focus:outline-none focus:border-fmMediumBrown focus:bg-fmDarkBrown rounded-sm py-2 px-3"
+          >
+            <Logo />
+          </Link>
           <button
             className="md:hidden flex flex-col justify-between h-8 border border-solid border-fmDarkestBrown outline-none focus:outline-none focus:border-fmPurple focus:bg-fmDarkPurpleTrans p-2 rounded-sm"
             aria-haspopup="true"
