@@ -8,6 +8,7 @@ module.exports = {
       fmDarkGold: '#91865A',
       fmLightGold: '#a6a283',
       fmBlue: '#0592B5',
+      fmLightBlue: '#069CC2',
       fmLightPurple: '#A39AF5',
       fmPurple: '#5F5A8F',
       fmDarkPurple: '#35315C',
@@ -25,6 +26,15 @@ module.exports = {
       inter: ['Inter', 'Helvetica', 'sans-serif'],
       merriweather: ['Merriweather', 'Georgia', 'serif'],
     },
+    textShadow: {
+      default: '0 2px 0 #000',
+      sm: '0 1px 1px rgba(0,0,0,0.1)',
+      md: '0 2px 2px #000',
+      lg: '1px 5px 10px rgba(0,0,0,0.5)',
+      h1: '0 0 3px #FF0000, 0 0 5px #0000FF',
+      xl: '0 0 3px rgba(0, 0, 0, .8), 0 0 5px rgba(0, 0, 0, .9)',
+      none: 'none',
+    },
     extend: {},
   },
   variants: {
@@ -33,6 +43,8 @@ module.exports = {
     borderWidth: ['last', 'responsive', 'focus', 'hover'],
     borderColor: ['last', 'responsive', 'focus', 'hover'],
     borderStyle: ['last', 'responsive', 'focus', 'hover'],
+    translate: ['hover', 'responsive'],
+    transform: ['hover', 'responsive'],
   },
-  plugins: [],
+  plugins: [require('tailwindcss-textShadow')()],
 };
