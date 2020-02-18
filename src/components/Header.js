@@ -121,7 +121,7 @@ const Header = () => {
                 key={id}
                 to={link}
                 className="text-ab hover:text-white tracking-wider font-merriweather font-light py-3 md:py-3 px-5 md:px-6 my-1 md:my-2 rounded-sm border border-solid border-fmDarkestBrown focus:outline-none focus:border-fmMediumBrown focus:bg-fmDarkBrown focus:text-white"
-                activeClassName="text-f8 bg-fmDarkPurpleTrans border border-solid border-fmDarkPurple focus:border-fmPurple focus:bg-fmDarkPurpleTrans"
+                activeClassName="text-f8 bg-fmDarkPurpleTrans border border-solid border-fmDarkPurpleTrans focus:border-fmPurple focus:bg-fmDarkPurpleTrans"
                 onKeyUp={handleEscKeyUp}
               >
                 {name}

@@ -32,7 +32,7 @@ const Contact = () => {
             </div>
             <a
               href="tel:19204674939"
-              className="block px-5 py-3 mb-5 rounded no-underline border border-solid border-white focus:outline-none focus:bg-f8 focus:border-e2"
+              className="block px-5 py-3 mb-5 rounded no-underline border border-solid border-white focus:outline-none focus:bg-f8 focus:border-e2 hover:bg-f8"
             >
               <div className="flex justify-start items-start">
                 <svg
@@ -51,7 +51,7 @@ const Contact = () => {
             </a>
             <a
               href="https://goo.gl/maps/UXKXPzhhuewUPJXi7"
-              className="block px-5 py-3 rounded no-underline border border-solid border-white focus:outline-none focus:bg-f8 focus:border-e2"
+              className="block px-5 py-3 rounded no-underline border border-solid border-white focus:outline-none focus:bg-f8 focus:border-e2 hover:bg-f8"
             >
               <div className="flex justify-start items-start">
                 <svg
@@ -90,7 +90,7 @@ const Contact = () => {
             Name
           </label>
           <input
-            className="p-2 mb-6 rounded border-2 border-solid border-e2 focus:outline-none focus:border-blue-300"
+            className="p-2 mb-6 rounded border-2 border-solid border-e2 focus:outline-none focus:border-ab"
             id="name"
             name="name"
           />
@@ -101,7 +101,7 @@ const Contact = () => {
             Email Address
           </label>
           <input
-            className="p-2 mb-6 rounded border-2 border-solid border-e2 focus:outline-none focus:border-blue-300"
+            className="p-2 mb-6 rounded border-2 border-solid border-e2 focus:outline-none focus:border-ab"
             id="email"
             name="email"
           />
@@ -112,7 +112,7 @@ const Contact = () => {
             Phone Number
           </label>
           <input
-            className="p-2 mb-6 rounded border-2 border-solid border-e2 focus:outline-none focus:border-blue-300"
+            className="p-2 mb-6 rounded border-2 border-solid border-e2 focus:outline-none focus:border-ab"
             id="phone"
             name="phone"
           />
@@ -122,7 +122,7 @@ const Contact = () => {
           >
             Message
           </label>
-          <textarea className="p-2 mb-6 h-40 rounded border-2 border-solid border-e2 focus:outline-none focus:border-blue-300" />
+          <textarea className="p-2 mb-6 h-40 rounded border-2 border-solid border-e2 focus:outline-none focus:border-ab" />
           <button className="bg-fmBlue text-white py-3 rounded shadow-md hover:bg-fmLightBlue focus:outline-none focus:shadow-outline">
             Send Your Message
           </button>

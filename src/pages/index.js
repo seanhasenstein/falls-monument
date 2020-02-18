@@ -23,15 +23,21 @@ const Index = () => {
         <h4 className="text-fmLightBrown uppercase font-medium tracking-wider opacity-75 text-shadow-lg">
           Store Hours
         </h4>
-        <p className="text-white font-merriweather mt-4 mb-12 text-shadow-lg">
+        <p className="mt-4 mb-12 font-merriweather text-white text-shadow-lgt tracking-wide">
           Monday-Friday: 9am-4pm
         </p>
         <div className="flex flex-col sm:flex-row justify-center">
           <Link
             to="/contact"
-            className="sm:w-64 py-3 mb-4 sm:mb-0 sm:mr-4 text-center bg-fmBlue hover:bg-fmLightBlue text-white rounded font-merriweather text-sm tracking-wider shadow-lg hover:shadow-xl focus:outline-none focus:shadow-outline"
+            className="w-full sm:w-64 py-3 mb-4 sm:mb-0 sm:mr-4 text-center bg-fmBlue hover:bg-fmLightBlue text-white rounded text-sm tracking-wide font-merriweather shadow-lg hover:shadow-xl focus:outline-none focus:shadow-outline"
           >
             Schedule an Appointment
+          </Link>
+          <Link
+            to="/"
+            className="hidden sm:block w-64 py-3 text-center bg-9e hover:bg-ab text-white rounded text-sm tracking-wide font-merriweather shadow-lg hover:shadow-xl focus:outline-none focus:shadow-outline"
+          >
+            Learn More
           </Link>
         </div>
       </div>
@@ -49,10 +55,16 @@ const Index = () => {
           Our caring staff is here to be of assistance in selecting a lasting
           memorial.
         </h3>
-        <p className="text-fmMediumBrown max-w-screen-sm px-5 text-center mx-auto leading-relaxed">
+        <p className="text-fmMediumBrown max-w-screen-sm px-5 mb-8 text-center mx-auto leading-relaxed">
           We offer attention to detail, creativity, and exceptional workmanship
           with thoughtful consideration for the families we serve.
         </p>
+        <Link
+          to="/contact"
+          className="w-full sm:w-64 py-3 text-center bg-fmBlue hover:bg-fmLightBlue text-white rounded text-sm tracking-wide font-merriweather shadow-md focus:outline-none focus:shadow-outline"
+        >
+          See Our Services
+        </Link>
       </div>
 
       <div className="w-full bg-f8 pt-16 lg:py-16 px-12">
@@ -68,9 +80,9 @@ const Index = () => {
             </p>
             <Link
               to="/"
-              className="block sm:w-64 py-3 mx-auto lg:mx-0 text-center bg-fmBlue hover:bg-fmLightBlue text-white rounded font-merriweather text-sm tracking-wider shadow-lg hover:shadow-xl focus:outline-none focus:shadow-outline"
+              className="block sm:w-64 py-3 mx-auto lg:mx-0 text-center bg-fmBlue hover:bg-fmLightBlue text-white rounded font-merriweather text-sm tracking-wider shadow-md focus:outline-none focus:shadow-outline"
             >
-              Examples of our work
+              See Our work
             </Link>
           </div>
           <a
