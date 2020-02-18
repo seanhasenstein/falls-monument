@@ -21,6 +21,8 @@ module.exports = {
       f8: '#f8f8f8',
       white: '#ffffff',
       black: '#000000',
+      'gray-300': '#E2E8F0',
+      'blue-300': '#90CDF4',
     },
     fontFamily: {
       inter: ['Inter', 'Helvetica', 'sans-serif'],
