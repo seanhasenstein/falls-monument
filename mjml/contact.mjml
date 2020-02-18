@@ -1,0 +1,61 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text font-family="Roboto, sans-serif" padding="0 50px" font-size="16px" />
+      <mj-divider padding="24px 40px 0" border-color="#eeeeee" border-width="1px" />
+      <mj-class name="heading-text" padding-top="24px" padding-bottom="10px" font-weight="600" color="#333333" />
+      <mj-class name="paragraph-text" color="#525252" line-height="1.6" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#eeeeee">
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image src="https://res.cloudinary.com/dra3wumrv/image/upload/v1581981868/falls-monument-logo.png" alt="Falls Monument" align="center" width="200px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" border-radius="6px" padding="50px 0">
+      <mj-column>
+        <mj-text font-weight="400" font-size="22px" padding-bottom="16px">
+          Contact Form Message
+        </mj-text>
+        <mj-text mj-class="heading-text">
+          Name
+        </mj-text>
+        <mj-text mj-class="paragraph-text">
+          Sean Hasenstein
+        </mj-text>
+        <mj-divider />
+        <mj-text mj-class="heading-text">
+          Email Address
+        </mj-text>
+        <mj-text mj-class="paragraph-text">
+          seanhasenstein@gmail.com
+        </mj-text>
+        <mj-divider />
+        <mj-text mj-class="heading-text">
+          Phone Number
+        </mj-text>
+        <mj-text mj-class="paragraph-text">
+          (920) 627-8940
+        </mj-text>
+        <mj-divider />
+        <mj-text mj-class="heading-text">
+          Message
+        </mj-text>
+        <mj-text mj-class="paragraph-text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="32px">
+      <mj-column>
+        <mj-image width="30px" src="https://res.cloudinary.com/dra3wumrv/image/upload/v1581984348/falls-monument-simple-logo.png" alt="Falls Monument Company" />
+        <mj-text color="#35315C" align="center" padding="8px 0 32px">
+          <a href="https://fallsmonument.com" style="color: #35315C; text-decoration: none;">
+            www.fallsmonument.com
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
